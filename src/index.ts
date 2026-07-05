@@ -1,5 +1,5 @@
 import { Client, utils } from '@mimic-behavior/ssh2'
-import path from 'path'
+import path from 'node:path'
 
 import * as sftpUtils from './utils'
 
