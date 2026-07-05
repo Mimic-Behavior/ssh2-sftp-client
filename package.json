@@ -1,0 +1,40 @@
+{
+    "name": "@mimic-behavior/ssh2-sftp-client",
+    "version": "0.0.1",
+    "homepage": "https://github.com/Mimic-Behavior/ssh2-sftp-client",
+    "license": "MIT",
+    "author": "Aleksei Saenko",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Mimic-Behavior/ssh2-sftp-client.git"
+    },
+    "files": [
+        "./dist"
+    ],
+    "type": "module",
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "exports": {
+        ".": "./dist/index.js"
+    },
+    "scripts": {
+        "build": "vite build"
+    },
+    "dependencies": {
+        "@mimic-behavior/ssh2": "link:../ssh2"
+    },
+    "devDependencies": {
+        "@mimic-behavior/eslint-config": "^0.8.2",
+        "@mimic-behavior/oxfmt-config": "^0.1.3",
+        "eslint": "^10.6.0",
+        "eslint-plugin-jsonc": "^3.2.0",
+        "eslint-plugin-perfectionist": "^5.9.1",
+        "eslint-plugin-sonarjs": "^4.1.0",
+        "eslint-plugin-yml": "^3.5.0",
+        "jiti": "^2.7.0",
+        "oxfmt": "^0.57.0",
+        "typescript-eslint": "^8.62.1",
+        "unplugin-dts": "^1.0.3",
+        "vite": "^8.1.3"
+    }
+}
