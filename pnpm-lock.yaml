@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@mimic-behavior/ssh2':
-        specifier: ^0.0.1
-        version: 0.0.1
+        specifier: ^0.0.2
+        version: 0.0.2
     devDependencies:
       '@mimic-behavior/eslint-config':
         specifier: ^0.8.2
@@ -185,8 +185,8 @@ packages:
     peerDependencies:
       oxfmt: '>=0.40.0'
 
-  '@mimic-behavior/ssh2@0.0.1':
-    resolution: {integrity: sha512-bmXvGwoXdlwMuQ7AD0MJFNqD7uQysuH+wswzXf7W40JCcy5gyFMSQeorHYHb18fTnHFq+zzYALaQ3SW+wr9xXA==}
+  '@mimic-behavior/ssh2@0.0.2':
+    resolution: {integrity: sha512-Awc6D/qP0lXj6dLujpsXGnPoBYK4jRdmvcyuwSoobnzY/NRrqicvBZSYDpYQVWxgdvM1KTH7tVKOsYTXrgJFsg==}
 
   '@napi-rs/wasm-runtime@1.1.6':
     resolution: {integrity: sha512-ZLv/JdUfkvOy9eCnnBaGfiO+XimbjebAeO+MRQqD/B+FR1tnRN0tpKSJHRbE8sFfS6aqsXZ67TQjfwfsxULVbg==}
@@ -1319,7 +1319,7 @@ snapshots:
     dependencies:
       oxfmt: 0.57.0
 
-  '@mimic-behavior/ssh2@0.0.1':
+  '@mimic-behavior/ssh2@0.0.2':
     dependencies:
       ssh2: 1.17.0
 
