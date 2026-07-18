@@ -21,7 +21,7 @@
         "build": "vite build"
     },
     "dependencies": {
-        "@mimic-behavior/ssh2": "^0.0.2"
+        "@mimic-behavior/ssh2": "^0.1.0"
     },
     "devDependencies": {
         "@mimic-behavior/eslint-config": "^0.8.2",
